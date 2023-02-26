@@ -1,0 +1,301 @@
+# Site
+repository: elizav555.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Elizaveta Garkina
+title: Junior Android Developer
+email: lizagarkina5@gmail.com
+website: https://elizav555.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  Elizav555
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: __elizav__
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: telegram
+  icon: fa fa-telegram
+  url: https://t.me/ElizavG
+- title: vk
+  icon: fa fa-vk
+  url: https://vk.com/elizavetagarkina
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+ Hey, My name is Elizaveta Garkina.
+
+ Now I am a third-year student at **Kazan Federal University** in the field of **Software Engineering**. 
+ In addition, I'm taking a **Flutter-developer** course and am attached to the **Mobile Development Lab**.
+
+ <mark>Desired position:</mark> **Intern/Junior Android Developer**. 
+
+  - Native language is Russian
+  - English level is B2+
+  - Also know a little bit of French (A1-A2 I suppose)
+
+  - Quite sociable and easily join the team
+  - Learn quickly and like to learn new things
+  - ALWAYS meet deadlines and have the makings of a good leader
+content:
+  - title: Stack # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+        <center>
+           <mark>Compose</mark>  <mark>Room</mark>  <mark>Firebase</mark>  <mark>Dagger2</mark>  <mark>Hilt</mark>  <mark>ViewModel</mark>  <mark>LiveData</mark>  <mark>Flow </mark> <br><br> 
+           <mark>Moxy</mark>  <mark>Cicerone</mark>  <mark>RxJava</mark>  <mark>Coroutine</mark>  <mark>Retrofit</mark>  <mark>Okhttp</mark>  <mark>JUnit5</mark>  <mark>Mockito </mark>  <br><br>
+           <mark>SOLID</mark>  <mark>Clean Architecture</mark>  <mark>MVP</mark>  <mark>MVVM</mark> <mark>MVI</mark> <mark>VIPER</mark>  <br><br>
+           <mark>SQL</mark>  <mark>PostgreSql</mark>  <mark>Figma</mark>  <mark>Git</mark>   <mark>JS</mark>  <mark>JQuery</mark>  <mark>HTML</mark>  <mark>CSS</mark><br><br>  
+           <mark>ASP.Net Core</mark>  <mark>.Net6</mark>  <mark>EntityFramework Core </mark></center>  
+  
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: GiftGiver
+        link: https://elizav555.github.io/GiftGiver
+        link_text: Project Page
+        additional_links:
+          - title:  GiftGiver Repository
+            icon: fab fa-github
+            url: https://github.com/Elizav555/GiftGiver
+        description: | 
+          A small educational project that will help you please your loved ones and will make it easier to choose gifts for them. User can make wishlists, look at the calendar of upcoming holidays and birthdays of his friends from VK, as well as look throw their Wishlists.
+            
+            <mark>Features</mark> | <mark>Stack</mark>
+             Theme changing (dark and light) | MVVM
+             Loading friends list from VK, searching and filtration | Xml
+             Add friend to favorites | Shared Element Animation
+             View friend's Wishlists and gifts | Work Manager
+             See which gifts are already unavailable for selection | ViewModel
+             See which gifts you have chosen  | Flow
+             Anonymous choice of gifts and adding them to shopping list | LiveData
+             Create and edit your own Wishlists and gifts | Coroutines
+             If friend changed his gift after you added it to cart, it will be marked | Room
+             Edit profile | Firebase Notifications
+             View photos and upload them from camera/gallery | Firestore
+             Calendar with friends birthdays and holidays | Storage
+             Holidays are taken from api | Coil
+             Ability to add/delete events | Retrofit and Okhttp
+             Notification one day before event | Dagger2
+             Firebase Push Notifications | Clean Architecture
+             Data storing in Firestore and Storage | Material Calendar
+             Data backup in Room for offline mode | VK SDK
+              |
+             
+          <mark>Screenshots</mark>   [Screencast](https://user-images.githubusercontent.com/78415957/191795380-6029d606-f53c-4107-8728-9bba0257d1cc.mp4)
+          
+          
+          ![Users Profile](images/users_profile.jpg  "User's Profile"  )
+          ![Wishlist](images/wishlist.jpg "User's Wishlist")
+          ![Friends](images/friends.jpg "Friends")
+          ![Friends Wishlist](images/friends_wishlist.jpg "Friend's Wishlist")
+          ![Calendar](images/calendar.jpg "Calendar")
+
+          
+      - layout: top-middle
+        title: FiveLetters
+        link: https://elizav555.github.io/FiveLetters
+        link_text: Project Page
+        additional_links:
+          - title:  FiveLetters Repository
+            icon: fab fa-github
+            url: https://github.com/Elizav555/FiveLetters
+        description: | 
+          A game in which you will have five tries to guess the hidden word. After each try, the letters that are guessed correctly and the letters that are in the word but are in the wrong position will be highlighted. This project was implemented to practice with Compose.
+          
+          <mark>Features</mark> | <mark>Stack</mark>
+             Theme changing(dark and light) | Compose
+             Dynamic color support | Compose Animation
+             Change of localization (Russian/English) | ViewModel
+             Save game settings and state in Shared Preferences | Flow
+             Choice of difficulty level  number of letters (5/6/7) | Coroutines
+             Dialog with game rules | Events and State
+             Custom Keyboard | Material3
+             Offline mode support  | Retrofit and Okhttp
+             Words are taken from the api | Hilt
+             Letter guessing animation  | Clean Architecture
+                | Shared Preferences
+                |
+
+          <mark>Screenshots</mark>   [Screencast](https://user-images.githubusercontent.com/78415957/191793128-c7b77eda-26ed-42de-a81d-051080a5b844.mp4)
+          
+          
+          ![Game Rus](images/game_russian.jpg  "Game Russian"  )
+          ![Game Eng](images/game_english.jpg "Game English")
+          ![Info](images/info_eng.jpg "Info Dialog")
+          ![Settings](images/settings_russian.jpg "Settings Dialog")
+          ![Won Dialog](images/won_eng.jpg "Won Dialog")
+      
+      - layout: top-middle
+        title:  MVIShopping
+        link: https://elizav555.github.io/MVIShopping
+        link_text: Project Page
+        additional_links:
+          - title:  MVIShopping Repository
+            icon: fab fa-github
+            url: https://github.com/Elizav555/MVIShopping
+        description: | 
+          This app was my first attempt to work with RxRedux for MVI.
+          
+          <mark>Features</mark> | <mark>Stack</mark>
+            Google one tap signIn | Firebase Auth
+            Edit products in list | Firestore
+            Add product to cart | RxRedux
+            Sort lists (dynamic icon for both lists) | RxJava
+            Cart's count on badge | Coroutines
+             | ViewPager2
+             | Tabs
+             | Hilt
+             | MVI
+             | Clean Architecture
+
+          <mark>Screenshots</mark>   [Screencast](https://user-images.githubusercontent.com/78415957/196248223-90612eb8-1cbc-4f09-bc8b-b1d8482b4299.mp4) 
+          
+          
+          ![Products List](images/productsList.jpg  "Products List"  )
+          ![Cart](images/cart.jpg "Cart")
+          ![Sign In](images/signin.jpg "Sign In")
+
+      - layout: top-middle
+        title:  WeatherApp
+        link: https://elizav555.github.io/Weather_App
+        link_text: Project Page
+        additional_links:
+          - title:  WeatherApp Repository
+            icon: fab fa-github
+            url: https://github.com/Elizav555/Weather_App
+        description: | 
+          My first MVVM client-server app.
+          
+          <mark>Features</mark> | <mark>Stack</mark>
+            Search for a city | FusedLocationProviderClient
+            Display a list with the nearest 10 places | ViewModel
+            If there is no access to the location, the default location is set | LiveData
+            Support both dark and light themes | Coroutines
+            Layout for landscape mode | DataBinding
+            Animation | Shared Element Animation
+            Request Permissions | Retrofit and Okhttp
+            Some tests | Hilt and Dagger2 (branch dagger2)
+            The color of the temperature text depends on the temperature | Assisted Inject
+             | Clean Architecture
+             | JUnit5
+             | MockK
+
+          <mark>Screenshots</mark>   [FirstScreencast](https://user-images.githubusercontent.com/78415957/194026549-4eea857e-a978-4069-9f89-9c4a8a882d6f.mp4) [SecondScreencast](https://user-images.githubusercontent.com/78415957/194026555-7f1612e1-de84-4ffd-9f91-6403b04ea0cd.mp4)
+          
+          
+          ![Nearest places list](images/list.jpg  "Nearest places list"  )
+          ![Nearest places list](images/list_dark.jpg "Nearest places list dark")
+          ![Rationale](images/rationale.jpg "Rationale")
+          ![Weather Screen](images/weather.jpg "Weather Screen")
+          ![Weather Screen dark](images/weather_dark.jpg "Weather Screen dark")
+
+      - layout: top-middle
+        title: MarvelApp
+        link: https://elizav555.github.io/MarvelApp
+        link_text: Project Page
+        additional_links:
+          - title:  MarvelApp Repository
+            icon: fab fa-github
+            url: https://github.com/Elizav555/MarvelApp
+        description: | 
+          Simple app for MVP and RxJava practice.
+          
+          <mark>Features</mark> | <mark>Stack</mark>
+            Search using MarvelApi, reacts when user is typing | Cicerone
+            Navigation using router | RxJava3
+            Display characters list and their detailed info | Moxy
+            MVP architecture | Flow
+            Each Api call includes md5 hash from private and public api keys, timestamp | MD5
+            Some tests | Retrofit and Okhttp
+             | Clean Architecture
+             | Hilt
+             | MockK
+             | JUnit5
+
+          <mark>Screenshots</mark>   [Screencast](https://user-images.githubusercontent.com/78415957/194083697-b97338a3-8e63-4a18-b1db-42d3867c17df.mp4)
+          
+          
+          ![Search](images/search_first.jpg  "Search"  )
+          ![Search x2](images/search_second.jpg "Search")
+          ![Hero's detail](images/detail.jpg "Hero's detail")
+          ![Hero's detail x2](images/detail_second.jpg "Hero's detail")
+
+  - title: Experience 
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Technokratos (Технократия)
+        link: https://technokratos.com/?ysclid=l8g67dlhzr518675436
+        link_text: technokratos.com
+        sub_title: Summer Internship
+        caption: July 2022
+        description: | # this will include new lines to allow paragraphs
+            During the internship I participated in the development of the company's internal project with **full immersion in the development process**. For the first time I worked with **Compose**.<br>
+            *"In short, you are good, we are satisfied with your work. I want to note your motivation and involvement, your speed of immersion in new technologies and completing tasks, a clear breakdown of code by commit, good design of pull-requests, quick response to comments, the presence of your own ideas and suggestions. Also noted soft skills, the fact that you didn't hesitate to ask questions not only to mentors, but also to designers and analysts - that's very cool"* - @MyMentor
+
+  - title: Education 
+    layout: list 
+    content:
+      - layout: left
+        title: Kazan Federal University
+        caption: 2020 - 2024
+        sub_title: Software Engineering, ITIS
+        description: | 
+          Studied **Fundamentals of Programming and Information Systems Development, Algorithms and Data Structures, Database, Mobile Application Development, Theory of Information and Communication, System Analysis**.<br>Academic rating for the academic year 2021/2022 : **94.47 points** out of 100.
+
+      - layout: left
+        title: Skillbox
+        sub_title: Flutter-developer
+        description: | 
+          Studied **Flutter, Android Basics, Figma, Mobile App Testing, Mobile App Design**.
+
+  - title: Hobbies
+    layout: text 
+    content: |
+        - Have a terrible **Hermione Granger complex**
+        - I've loved reading since childhood, especially **dystopias and fiction**, but lately I've been drawn to **comic books** in English 
+        - Like everyone else like **Netflix and chill** 
+        - When I have time, I dive into any **Action/RPG** game with open world
+        - One of the reasons I like being a developer is that I will be able to work remotely and **travel** all the time (hopefully)
+        - **3D Modelling** in SketchUp is kinda interesting for me too
+
+# Footer
+footer_show_references: true
+references_title: | 
+  Telegram: <a>https://t.me/ElizavG</a>
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
