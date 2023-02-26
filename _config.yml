@@ -1,26 +1,26 @@
 # Site
-repository: elizav555.github.io
+repository: harisov-mobile.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Elizaveta Garkina
-title: Junior Android Developer
-email: lizagarkina5@gmail.com
-website: https://elizav555.github.io/
+name: Harisov Rustam
+title: Android Developer
+email: harisov-mobile@mail.ru
+website: https://harisov-mobile.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  Elizav555
+github_username:  harisov-mobile
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: __elizav__
+#instagram_username: __elizav__
 #linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -29,13 +29,13 @@ instagram_username: __elizav__
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: telegram
-  icon: fa fa-telegram
-  url: https://t.me/ElizavG
-- title: vk
-  icon: fa fa-vk
-  url: https://vk.com/elizavetagarkina
+# additional_links:
+# - title: telegram
+#   icon: fa fa-telegram
+#   url: https://t.me/ElizavG
+# - title: vk
+#   icon: fa fa-vk
+#   url: https://vk.com/elizavetagarkina
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -47,7 +47,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Hey, My name is Elizaveta Garkina.
+ Hey, My name is Harisov Rustam.
 
  Now I am a third-year student at **Kazan Federal University** in the field of **Software Engineering**. 
  In addition, I'm taking a **Flutter-developer** course and am attached to the **Mobile Development Lab**.
