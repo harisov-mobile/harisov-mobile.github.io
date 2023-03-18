@@ -20,7 +20,6 @@ github_username:  harisov-mobile
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: __elizav__
 #linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -49,8 +48,8 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
  Привет. Я - Харисов Рустам.
 
-Я работаю в ООО "Агро-Сервис" - разработал для предприятия приложение для Андроид "Заказ-наряды Агро-Сервис".
-Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
+# Я работаю в ООО "Агро-Сервис" - разработал для предприятия приложение для Андроид "Заказ-наряды Агро-Сервис".
+# Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
 content:
   - title: Стек технологий, которые я применяю: # Title for the section
@@ -102,41 +101,6 @@ content:
           ![Login](images/workorder/Login.png  "Login")
           ![Synchronisation](images/workorder/Synchronisation.png "Synchronisation")
           ![WorkOrderList](images/workorder/WorkOrderList.png "Work Order List")
-          
-      - layout: top-middle
-        title: FiveLetters
-        link: https://elizav555.github.io/FiveLetters
-        link_text: Project Page
-        additional_links:
-          - title:  FiveLetters Repository
-            icon: fab fa-github
-            url: https://github.com/Elizav555/FiveLetters
-        description: | 
-          A game in which you will have five tries to guess the hidden word. After each try, the letters that are guessed correctly and the letters that are in the word but are in the wrong position will be highlighted. This project was implemented to practice with Compose.
-          
-          <mark>Features</mark> | <mark>Stack</mark>
-             Theme changing(dark and light) | Compose
-             Dynamic color support | Compose Animation
-             Change of localization (Russian/English) | ViewModel
-             Save game settings and state in Shared Preferences | Flow
-             Choice of difficulty level  number of letters (5/6/7) | Coroutines
-             Dialog with game rules | Events and State
-             Custom Keyboard | Material3
-             Offline mode support  | Retrofit and Okhttp
-             Words are taken from the api | Hilt
-             Letter guessing animation  | Clean Architecture
-                | Shared Preferences
-                |
-
-          <mark>Screenshots</mark>   [Screencast](https://user-images.githubusercontent.com/78415957/191793128-c7b77eda-26ed-42de-a81d-051080a5b844.mp4)
-          
-          
-          ![Game Rus](images/game_russian.jpg  "Game Russian"  )
-          ![Game Eng](images/game_english.jpg "Game English")
-          ![Info](images/info_eng.jpg "Info Dialog")
-          ![Settings](images/settings_russian.jpg "Settings Dialog")
-          ![Won Dialog](images/won_eng.jpg "Won Dialog")
-      
      
 
   - title: Experience 
