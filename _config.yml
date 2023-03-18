@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 # Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
 content:
-  - title: Стек технологий, которые я применяю: # Title for the section
+  - title: Стек технологий, которые я применяю # Title for the section
     layout: text # Type of content section (list/text)
     content: |
         - Clean Architecture
