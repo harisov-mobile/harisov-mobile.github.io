@@ -46,7 +46,7 @@ github_username:  harisov-mobile
 # about_title:   
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Привет. Я - Харисов Рустам, работаю в ООО 'Агро-Сервис' - разработал для предприятия приложение для Андроид 'Заказ-наряды Агро-Сервис'.\n
+ Привет. Я - Харисов Рустам, работаю в ООО 'Агро-Сервис' - разработал для предприятия приложение для Андроид 'Заказ-наряды Агро-Сервис'.
  Мобильное приложение 'Заказ-наряды Агро-Сервис' разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
 
@@ -82,6 +82,14 @@ content:
             <mark>Стэк</mark> |
              XML-разметка |
              Single activity |
+             Single module |
+             Clean Architecture |
+             MVVM |
+             Room |
+             Retrofit |
+             Dagger2 |
+             Coroutines |
+        
              
           <mark>Screenshots</mark>
                     
