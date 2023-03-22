@@ -61,8 +61,8 @@ content:
         - Room
         - Dagger2
         - Retrofit
-    description: |
-      В настоящее время также изучаю технологии: Compose, KMM         
+        В настоящее время также изучаю технологии: Compose, KMM 
+              
   
   - title: Мои приложения # Title for the section
     layout: list # Type of content section (list/text)
@@ -79,8 +79,6 @@ content:
           <br>
           Приложение опубликовано в <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication">Гугл Плей Маркете</a>
         
-
-            
             <mark>Стэк</mark> |
              XML-разметка |
              Single activity |
@@ -92,7 +90,6 @@ content:
              Dagger2 |
              Coroutines |
         
-             
           <mark>Screenshots</mark>
                     
           ![Login](images/workorder/Login.png  "Login")
@@ -103,6 +100,41 @@ content:
           ![WorkOrderList](images/workorder/InputWork.png "Input work")
           ![WorkOrderList](images/workorder/Filter.png "Filter")
           ![WorkOrderList](images/workorder/FilteredList.png "Filtered list")
+     
+
+      - layout: top-middle
+        title: "Где я?"
+        link: https://github.com/harisov-mobile/WhereAmI
+        link_text: https://github.com/harisov-mobile/WhereAmI
+
+        description: | 
+          Приложение "Где я?" показывает Ваше текущее местоположение на карте.<br>
+          Приложение может показать маршрут от Вашего местоположения до выбранной точки на карте.<br>
+          Маршрут можно показать для пешехода, для велосипедиста или для автомобиля.<br><br>
+          В качестве картографического сервиса используется OpenStreetMap, библиотека Osmdroid.<br>
+          <br>
+          Приложение опубликовано в <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.whereami">Гугл Плей Маркете</a>
+        
+            <mark>Стэк</mark> |
+             XML-разметка |
+             Single activity |
+             Single module |
+             Clean Architecture |
+             MVVM |
+             Shared preferences |
+             Dagger2 |
+             Coroutines |
+             Osmdroid |
+        
+          <mark>Screenshots</mark>
+                    
+          ![Splashscreen](images/whereami/Splashscreen.png  "Splashscreen")
+          ![BogginiPark](images/whereami/BogginiPark.png "BogginiPark")
+          ![Address](images/whereami/Address.png "Address")
+          ![Foot](images/whereami/Foot.png "Foot")
+          ![Bike](images/whereami/Bike.png "Bike")
+          ![Car](images/whereami/Car.png "Car")
+
      
 
   - title: Опыт работы 
