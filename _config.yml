@@ -47,7 +47,7 @@ about_title: <br>
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
  Привет. Я - Харисов Рустам, работаю в ООО "Агро-Сервис" - как программист 1С и еще немного как мобильный разработчик.<br>
- Я разработал для предприятия мобильное приложение для Андроид "Заказ-наряды Агро-Сервис",<br>
+ Разработал для предприятия мобильное приложение для Андроид "Заказ-наряды Агро-Сервис",<br>
  которое позволяет автоматизировать работу сервисных инженеров:<br>
  сервисные инженеры в оффлайн-режиме заносят заказ-наряды в приложение, затем производят синхронизацию данных и выгружают заказ-наряды в 1С.
 
@@ -73,7 +73,7 @@ content:
         link_text: https://github.com/harisov-mobile/WorkOrderApplication
         additional_links:
           - title: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication 
-            # icon: fab fa-github
+            icon: fab fa-google
             url: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
         description: | 
           Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.<br>
@@ -129,7 +129,7 @@ content:
         caption: 1998 - 2009
         description: | # this will include new lines to allow paragraphs
             Доработка существующих программ на FoxPro.<br>
-            Создание небольших программ для внутренних нужд прдприятия на Delphi.<br>
+            Создание небольших программ для внутренних нужд предприятия на Delphi.<br>
             Доработка программ на Visual Basic for Access.<br>
             Интеграция между существующими на предприятии базами данных MS SQL Server, MS Access и 1С:УПП 8.1.<br>
 
