@@ -48,14 +48,15 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
  Привет. Я - Харисов Рустам.
 
-# Я работаю в ООО "Агро-Сервис" - разработал для предприятия приложение для Андроид "Заказ-наряды Агро-Сервис".
-# Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
+Я работаю в ООО "Агро-Сервис" - разработал для предприятия приложение для Андроид "Заказ-наряды Агро-Сервис".
+Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
 content:
   - title: Стек технологий, которые я применяю # Title for the section
     layout: text # Type of content section (list/text)
     content: |
         - Clean Architecture
+        - MVVM
         - Room
         - Dagger2
         - Retrofit
@@ -73,34 +74,23 @@ content:
             url: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
         description: | 
           Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
+          В качестве бэк-энда используется программа "1С-Альфа-Авто 5".
+          Сервисный инженер в оффлайн-режиме заносит заказ-наряды в приложение, затем производит синхронизацию данных и выгружает заказ-наряды в 1С.
             
-            <mark>Функции</mark> | <mark>Стэк</mark>
-             Theme changing (dark and light) | MVVM
-             Loading friends list from VK, searching and filtration | Xml
-             Add friend to favorites | Shared Element Animation
-             View friend's Wishlists and gifts | Work Manager
-             See which gifts are already unavailable for selection | ViewModel
-             See which gifts you have chosen  | Flow
-             Anonymous choice of gifts and adding them to shopping list | LiveData
-             Create and edit your own Wishlists and gifts | Coroutines
-             If friend changed his gift after you added it to cart, it will be marked | Room
-             Edit profile | Firebase Notifications
-             View photos and upload them from camera/gallery | Firestore
-             Calendar with friends birthdays and holidays | Storage
-             Holidays are taken from api | Coil
-             Ability to add/delete events | Retrofit and Okhttp
-             Notification one day before event | Dagger2
-             Firebase Push Notifications | Clean Architecture
-             Data storing in Firestore and Storage | Material Calendar
-             Data backup in Room for offline mode | VK SDK
-              |
+            <mark>Стэк</mark> |
+             XML-разметка |
+             Single activity |
              
           <mark>Screenshots</mark>
-          
-          
+                    
           ![Login](images/workorder/Login.png  "Login")
           ![Synchronisation](images/workorder/Synchronisation.png "Synchronisation")
-          ![WorkOrderList](images/workorder/WorkOrderList.png "Work Order List")
+          ![WorkOrderList](images/workorder/WorkOrderList.png "Work Order list")
+          ![WorkOrderList](images/workorder/WorkOrderTop.png "Work Order top")
+          ![WorkOrderList](images/workorder/WorkOrderBottom.png "Work Order bottom")
+          ![WorkOrderList](images/workorder/InputWork.png "Input work")
+          ![WorkOrderList](images/workorder/Filter.png "Filter")
+          ![WorkOrderList](images/workorder/FilteredList.png "Filtered list")
      
 
   - title: Experience 
