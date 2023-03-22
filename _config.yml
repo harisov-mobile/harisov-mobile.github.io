@@ -47,6 +47,10 @@ about_title:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
  Привет. Я - Харисов Рустам.
+ Я работаю в ООО 'Агро-Сервис' - разработал для предприятия приложение для Андроид 'Заказ-наряды Агро-Сервис'.
+ Мобильное приложение 'Заказ-наряды Агро-Сервис' разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
+
+
 # Я работаю в ООО 'Агро-Сервис' - разработал для предприятия приложение для Андроид 'Заказ-наряды Агро-Сервис'.
 # Мобильное приложение 'Заказ-наряды Агро-Сервис' разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
@@ -68,8 +72,8 @@ content:
         link: https://github.com/harisov-mobile/WorkOrderApplication
         link_text: https://github.com/harisov-mobile/WorkOrderApplication
         additional_links:
-          - title:  
-            icon: fab fa-github
+          - title: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication 
+            # icon: fab fa-github
             url: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
         description: | 
           Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
