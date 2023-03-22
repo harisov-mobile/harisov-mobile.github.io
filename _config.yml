@@ -43,15 +43,12 @@ github_username:  harisov-mobile
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title:   
+about_title: ---   
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Привет. Я - Харисов Рустам, работаю в ООО 'Агро-Сервис' - разработал для предприятия приложение для Андроид 'Заказ-наряды Агро-Сервис'.
- Мобильное приложение 'Заказ-наряды Агро-Сервис' разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
+ Привет. Я - Харисов Рустам, работаю в ООО "Агро-Сервис" - разработал для предприятия приложение для Андроид "Заказ-наряды Агро-Сервис".<br>
+ Мобильное приложение "Заказ-наряды Агро-Сервис" разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
-
-# Я работаю в ООО 'Агро-Сервис' - разработал для предприятия приложение для Андроид 'Заказ-наряды Агро-Сервис'.
-# Мобильное приложение 'Заказ-наряды Агро-Сервис' разработано для автоматизации работы с заказ-нарядами для сервисных инженеров.
 
 content:
   - title: Стек технологий, которые я применяю # Title for the section
@@ -103,49 +100,57 @@ content:
           ![WorkOrderList](images/workorder/FilteredList.png "Filtered list")
      
 
-  - title: Experience 
+  - title: Опыт работы 
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Technokratos (Технократия)
-        link: https://technokratos.com/?ysclid=l8g67dlhzr518675436
-        link_text: technokratos.com
-        sub_title: Summer Internship
-        caption: July 2022
+        title: ООО "Агро-Сервис"
+        sub_title: Программист 1С
+        caption: Май 2020 - по настоящее время
         description: | # this will include new lines to allow paragraphs
-            During the internship I participated in the development of the company's internal project with **full immersion in the development process**. For the first time I worked with **Compose**.<br>
-            *"In short, you are good, we are satisfied with your work. I want to note your motivation and involvement, your speed of immersion in new technologies and completing tasks, a clear breakdown of code by commit, good design of pull-requests, quick response to comments, the presence of your own ideas and suggestions. Also noted soft skills, the fact that you didn't hesitate to ask questions not only to mentors, but also to designers and analysts - that's very cool"* - @MyMentor
+            Помимо доработок конфигураций 1С разработал мобильное приложение для Андроид "Заказ-наряды Агро-Сервис" для автоматизации работы с заказ-нарядами для сервисных инженеров.<br>
+            
+      - layout: left
+        title: Различные организации
+        sub_title: Программист 1С
+        caption: 2009 - 2020
+        description: | # this will include new lines to allow paragraphs
+            Доработки конфигураций 1С УТ10.3, Альфа-Авто-5, БП 3.0 под задачи предприятия, создание двустороннего обмена между УТ10.3 и веб-сайтом предприятия на HTTP-сервисах (REST).<br>
+            Создание различных печатных форм, отчетов, обработок для 1С, правил конвертации для КД 2.0 для обменов и т.д. и т.п. <br>
+            На одном из предприятий удалось поработать по методике Agile со спринтами, ретроспективами, "покером", стори-поинтами и т.д. <br>
 
-  - title: Education 
+      - layout: left
+        title: Различные организации
+        sub_title: Инженер-программист
+        caption: 1998 - 2009
+        description: | # this will include new lines to allow paragraphs
+            Доработка существующих программ на FoxPro.<br>
+            Создание небольших программ для внутренних нужд прдприятия на Delphi.<br>
+            Доработка программ на Visual Basic for Access.<br>
+            Интеграция между существующими на предприятии базами данных MS SQL Server, MS Access и 1С:УПП 8.1.<br>
+
+
+  - title: Образование 
     layout: list 
     content:
       - layout: left
-        title: Kazan Federal University
-        caption: 2020 - 2024
-        sub_title: Software Engineering, ITIS
+        title: Казанский государственный технический университет имени А.Н.Туполева
+        caption: 1992 - 1998
+        sub_title: Инженер-системотехник по автоматизированным системам управления
         description: | 
-          Studied **Fundamentals of Programming and Information Systems Development, Algorithms and Data Structures, Database, Mobile Application Development, Theory of Information and Communication, System Analysis**.<br>Academic rating for the academic year 2021/2022 : **94.47 points** out of 100.
+          Факультет технической кибернетики и информатики. Кафедра Автоматизированных Систем Обработки Информации и Управления.
 
-      - layout: left
-        title: Skillbox
-        sub_title: Flutter-developer
-        description: | 
-          Studied **Flutter, Android Basics, Figma, Mobile App Testing, Mobile App Design**.
 
-  - title: Hobbies
+
+  - title: Хобби
     layout: text 
     content: |
-        - Have a terrible **Hermione Granger complex**
-        - I've loved reading since childhood, especially **dystopias and fiction**, but lately I've been drawn to **comic books** in English 
-        - Like everyone else like **Netflix and chill** 
-        - When I have time, I dive into any **Action/RPG** game with open world
-        - One of the reasons I like being a developer is that I will be able to work remotely and **travel** all the time (hopefully)
-        - **3D Modelling** in SketchUp is kinda interesting for me too
+        - Велосипед: с удовольствием катаюсь по парку. 
 
 # Footer
 footer_show_references: true
 references_title: | 
-  Telegram: <a>https://t.me/ElizavG</a>
+  
 
 # Build settings
 remote_theme: sproogen/resume-theme
