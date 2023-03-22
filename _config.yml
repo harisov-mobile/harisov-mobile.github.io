@@ -72,8 +72,8 @@ content:
         link: https://github.com/harisov-mobile/WorkOrderApplication
         link_text: https://github.com/harisov-mobile/WorkOrderApplication
         additional_links:
-            link:  https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
-            link_text:  https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
+          #  link:  https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
+          #  link_text:  https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
           #- title: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication 
           #  icon: fab fa-google
           #  url: https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication
@@ -82,8 +82,7 @@ content:
           В качестве бэк-энда используется программа "1С-Альфа-Авто 5".<br>
           Сервисный инженер в оффлайн-режиме заносит заказ-наряды в приложение, затем производит синхронизацию данных и выгружает заказ-наряды в 1С.<br>
           <br>
-          Приложение опубликовано в Гугл Плей Маркете: <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication">
-<img src="/screenshots/GooglePlay.png" alt="Get it on Play Market" height="70"></a>
+          Приложение опубликовано в Гугл Плей Маркете: <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication"><img src="/screenshots/GooglePlay.png" alt="Get it on Play Market" height="70"></a>
         
 
             
