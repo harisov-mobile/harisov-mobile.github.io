@@ -28,7 +28,7 @@ github_username:  harisov-mobile
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
+additional_links:
  - title: telegram
    icon: fa fa-telegram
    url: https://t.me/mob_dev_mob
