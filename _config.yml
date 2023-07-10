@@ -147,6 +147,7 @@ content:
         caption: Май 2022 - по настоящее время
         description: | # this will include new lines to allow paragraphs
             Разработал мобильное приложение для Андроид "Заказ-наряды Агро-Сервис" для автоматизации работы с заказ-нарядами для сервисных инженеров.<br>
+            <a href="https://play.google.com/store/apps/details?id=ru.internetcloud.workorderapplication">Work Order Application</a>
             
       - layout: left
         title: Различные организации
