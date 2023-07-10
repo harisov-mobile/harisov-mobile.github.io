@@ -9,7 +9,6 @@ version: 2
 name: Harisov Rustam
 title: Android Developer
 email: harisov.mobile@gmail.com
-telegram: https://t.me/mob_dev_mob
 website: https://harisov-mobile.github.io
 
 # Dark Mode (true/false/never)
@@ -30,9 +29,9 @@ github_username:  harisov-mobile
 
 # Additional icon links
 # additional_links:
-# - title: telegram
-#   icon: fa fa-telegram
-#   url: https://t.me/ElizavG
+ - title: telegram
+   icon: fa fa-telegram
+   url: https://t.me/mob_dev_mob
 # - title: vk
 #   icon: fa fa-vk
 #   url: https://vk.com/elizavetagarkina
