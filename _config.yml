@@ -56,13 +56,16 @@ content:
   - title: Стек технологий, которые я применяю # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-        - Clean Architecture
+        - XML-верстка и Compose
+        - Coroutines
         - MVVM
+        - MVIKotlin
         - Room
-        - Dagger2
         - Retrofit
-        - Coroutines<br><br>
-        В настоящее время также изучаю технологии: Compose, KMM 
+        - Koin
+        - Dagger2
+        - Clean Architecture<br><br>
+        В настоящее вемя также изучаю KMM 
               
   
   - title: Мои приложения # Title for the section
@@ -120,11 +123,10 @@ content:
              XML-разметка |
              Single activity |
              Single module |
-             Clean Architecture |
-             MVVM |
-             Shared preferences |
-             Dagger2 |
              Coroutines |
+             MVVM |
+             Dagger2 |
+             Clean Architecture |
              Osmdroid |
         
           <mark>Screenshots</mark>
