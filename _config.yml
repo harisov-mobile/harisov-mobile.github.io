@@ -95,6 +95,7 @@ content:
              Dagger2 |
              Clean Architecture |
         
+             <br>
           <mark>Screenshots</mark>
                     
           ![Login](images/workorder/Login.png  "Login")
@@ -129,7 +130,7 @@ content:
              Dagger2 |
              Clean Architecture |
              Osmdroid |
-        
+        <br>
           <mark>Screenshots</mark>
                     
           ![Splashscreen](images/whereami/Splashscreen.png  "Splashscreen")
@@ -172,6 +173,7 @@ content:
              Koin |
              Clean Architecture |
         
+             <br>
           <mark>Screenshots</mark>
                     
           ![OnBoarding](images/mystrava/OnBoarding.png  "OnBoarding")
