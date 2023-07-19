@@ -95,7 +95,6 @@ content:
              Dagger2 |
              Clean Architecture |
         
-          _
           <mark>Screenshots</mark>
                     
           ![Login](images/workorder/Login.png  "Login")
@@ -162,20 +161,19 @@ content:
           - Логаут (выход из аккаунта пользователя).<br>
           <br>
                   
-            <mark>Стэк</mark> |
-             XML-разметка & Compose |
-             Single activity |
-             Single module |
-             Coroutines |
-             MVVM |
-             MVI Kotlin |
-             Room |
-             Retrofit |
-             AppAuth (авторизация по стандарту OAuth 2.0) |
-             Koin |
-             Clean Architecture |
+          <mark>Стэк</mark> |
+          XML-разметка & Compose |
+          Single activity |
+          Single module |
+          Coroutines |
+          MVVM |
+          MVI Kotlin |
+          Room |
+          Retrofit |
+          AppAuth (авторизация по стандарту OAuth 2.0) |
+          Koin |
+          Clean Architecture |
                
-        
         
           <mark>Screenshots</mark>
                     
